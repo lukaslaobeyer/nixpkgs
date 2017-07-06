@@ -13663,6 +13663,8 @@ in {
     };
   };
 
+  migen = callPackage ../development/python-modules/migen { };
+
   minimock = buildPythonPackage rec {
     version = "1.2.8";
     name = "minimock-${version}";
